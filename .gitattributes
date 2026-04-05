@@ -1,0 +1,8 @@
+# Force CSV files to use LF line endings (best for ML projects)
+*.csv text eol=lf
+
+# Force Python files to use LF
+*.py text eol=lf
+
+# Force all text files to be normalized
+* text=auto eol=lf

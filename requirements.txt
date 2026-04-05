@@ -1,0 +1,9 @@
+streamlit
+tensorflow-cpu
+torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu
+easyocr
+transformers
+pandas
+numpy
+Pillow
+joblib
