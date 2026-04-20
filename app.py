@@ -1,7 +1,7 @@
 import streamlit as st
 import traceback
 
-st.set_page_config(page_title="AI Nutritionist", page_icon="🤖", layout="centered")
+st.set_page_config(page_title="AI Nutritionist", layout="centered")
 
 try:
     import joblib
@@ -33,10 +33,10 @@ try:
     model, le_diet, scaler, feature_cols, df_food = load_resources()
     reader, classifier = load_ocr_bert()
 
-    st.success("✅ All models and resources loaded successfully!")
+    st.success("All models and resources loaded successfully!")
 
 except Exception as e:
-    st.error("🚨 Failed to load resources")
+    st.error("Failed to load resources")
     st.error(str(e))
     st.code(traceback.format_exc())
     st.stop()
