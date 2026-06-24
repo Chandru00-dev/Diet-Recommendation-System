@@ -71,3 +71,5 @@ The system extracts text from medical reports, detects health conditions, and ge
    ```bash
    git clone https://github.com/YOUR-USERNAME/ai-nutrition-system.git
    cd ai-nutrition-system
+---
+link : https://drive.google.com/file/d/1xZLN__5PrBxhOIRDbqOwfL9wOWK2KMPX/view?usp=drive_link
